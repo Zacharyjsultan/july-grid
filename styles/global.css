@@ -35,7 +35,7 @@ footer {
     background-color: var(--footer-background);
 }
 .whole-grid div {
-    border: solid 2px black;
+    border: solid 1px black;
 
 }
 
@@ -50,11 +50,18 @@ footer {
     display: grid ;
     grid-template-columns: 30% 70%;
 }
+
+.bottom-right {
+display: grid;
+grid-template-rows: 15% 85%;    
+height: 100%;
+}
+
 .bottom-right-top {
     display: grid;
-    grid-template-columns: 15% 85%;
+    grid-template-columns: 40% 60%;
 }
-.botttom-right {
+.bottom-right {
     display: grid;
     grid-template-columns: 45% 55% ;
 }
