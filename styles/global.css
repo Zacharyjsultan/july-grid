@@ -56,7 +56,7 @@ footer {
 }
 .botttom-right {
     display: grid;
-    grid-template-rows: 45% 55% ;
+    grid-template-columns: 45% 55% ;
 }
 .bottom-right-bottom {
     display: grid;
